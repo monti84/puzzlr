@@ -1,0 +1,8 @@
+image: monti84/puzzlr-jquery.git
+      pipelines:
+      default:
+        - step:
+          script:
+            - apt-get update
+            - apt-get -qq install git-ftp
+            - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://secure.domdom.hu/public_html/puzzler/jquery
