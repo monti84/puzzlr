@@ -1,0 +1,10 @@
+image: samueldebruyn/debian-git
+
+
+pipelines:
+  default:
+  - step:
+      script:
+        - apt-get update
+        - apt-get -qq install git-ftp
+        - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD ftpes://secure.domdom.hu/puzzler/jquery
