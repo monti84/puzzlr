@@ -1,4 +1,4 @@
-image: monti84/puzzlr-jquery-git
+image: monti84/puzzlr-jquery.git
 
 
 pipelines:
