@@ -1,4 +1,4 @@
-image: monti84/puzzlr-jquery
+image: samueldebruyn/debian-git
 
 
 pipelines:
