@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <title>Puzzlr with jQuerys dfs1</title>
+    <title>Puzzlr with jQuerys</title>
 
     <link href="assets/css/style.css" rel="stylesheet">
     <style type="text/css">
@@ -75,6 +75,24 @@
         left: 0;
         width: 150px;
         height: 100%;        
+        transform: translateY(-100%);
+        transition: all 0.5s;
+      }
+
+      #pregame .previews:hover {
+        transform: translateY(0);
+      }
+
+      #pregame .previews:after {
+        content: 'hover me to select image';
+        display: block;
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        background-color: #fff;
+        width: 250px;
+        height: 20px;
+        color: #000;
       }
 
       #pregame .previews li {

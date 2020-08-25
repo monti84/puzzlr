@@ -31,13 +31,12 @@ PZR = null;
         config: {
             cols: 3,
             rows: 3,
-            selectedImageIDX: 5
+            selectedImageIDX: 2
         },
 
         imageURLS: [
-            'http://4997-presscdn-0-37.pagely.netdna-cdn.com/wp-content/uploads/2014/12/Lion-Cubs.jpg',
-            'http://images.nationalgeographic.com/wpf/media-live/photos/000/275/cache/african-lion-cub-in-lush-grass_27527_600x450.jpg',
-            'http://weknownyourdreamz.com/images/city/city-08.jpg',
+            'assets/images/lockdown-lion-cubs.webp',
+            'assets/images/wp3358813-background-full-hd-1920x1080.jpg',
             'https://st.depositphotos.com/2121815/4314/i/950/depositphotos_43140099-stock-photo-can-of-mirinda-drink-isolated.jpg',
             'https://ak8.picdn.net/shutterstock/videos/17258128/thumb/3.jpg',
             'http://www.lemon64.com/museum/boxes/c64c_original_box.jpg'
